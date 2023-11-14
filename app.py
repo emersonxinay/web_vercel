@@ -2,6 +2,7 @@ from flask import Flask, render_template
 # captuando todo flask 
 app = Flask(__name__)
 # ruta raiz
+
 @app.route('/')
 def inicio():
   titulo = "Bienvenido"
